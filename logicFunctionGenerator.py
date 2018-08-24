@@ -18,7 +18,6 @@ def findLogicFunction(resp,circuit, porta):
 def generateLogicFunctions(circuit):
     resps = []
     for saída in circuit.saídas:
-        print(saída)
         for entrada in circuit.entradas:
             if saída.valor == entrada.nome:
                 return saída.nome + " = " + entrada.nome

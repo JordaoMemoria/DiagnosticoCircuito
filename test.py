@@ -1,10 +1,13 @@
-import json
-import os
+from itertools import combinations
+from pandas import read_csv
 
-with open('circuito1', 'r') as f:
-    with open("circuito1Teste.json","w") as f2:
-        data = json.load(f)
-        data["portas"][1]["nome"] = "AAAAAAAAAAAAA"
-        print(data["portas"][1]["nome"])
+a = list(combinations(['a','b','c'], 2))
+print(a)
 
-#os.remove("cacatuaTest.json")
+df1 = read_csv("circuito1.csv",sep=' ')
+df2 = read_csv("circuito1Defeito.csv",sep=' ')
+
+if df2.equals(df1):
+    print("Foi")
+else:
+    print("Cague")

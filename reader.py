@@ -1,6 +1,6 @@
 import json
 from collections import namedtuple
-
+from pandas import read_csv
 
 def readJson(circuitName):
     with open(circuitName, 'r') as f:
@@ -14,7 +14,11 @@ def readJson(circuitName):
 
 
 def getEditableJson(circuitName):
-    with open('circuito1', 'r') as f:
-        with open("circuito1Teste.json", "w") as f2:
-            data = json.load(f)
-            return data
+    with open(circuitName, 'r') as f:
+        data = json.load(f)
+        return data
+
+def readTables(circuitName):
+    dfOk = read_csv(circuitName+".csv", sep=' ')
+    dfDefeito = read_csv(circuitName+"Defeito.csv", sep=' ')
+    return dfOk, dfDefeito
