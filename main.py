@@ -37,8 +37,8 @@ def diagnostic():
 #diagnostic()
 
 def main():
-    circuitList = ["circuito2", "circuito3", "circuito4"]
-    #circuitList = ["circuito1"]
+    #circuitList = ["circuito2", "circuito3", "circuito4"]
+    circuitList = ["circuito5"]
     for circuitName in circuitList:
         print(circuitName)
         circuit = getEditableJson(circuitName)

@@ -29,6 +29,8 @@ def generateListOfFaults(circuit):
         faults.append(fault1)
     fault1 = list(combinations(faults, 1))
     fault2 = list(combinations(faults, 2))
+    fault3 = list(combinations(faults, 3))
+
     toRemove = []
     for i in range(len(fault2)):
         f0, f1 = fault2[i]
@@ -36,7 +38,6 @@ def generateListOfFaults(circuit):
             toRemove.append(fault2[i])
     for f in toRemove:
         fault2.remove(f)
-    fault3 = list(combinations(faults, 3))
     toRemove = []
     for i in range(len(fault3)):
         f0, f1, f2 = fault3[i]

@@ -15,6 +15,7 @@ def findLogicFunction(resp,circuit, porta):
     list = list.replace(",)", ")")
     return list
 
+
 def generateLogicFunctions(circuit):
     resps = []
     for saída in circuit.saídas:
