@@ -11,6 +11,8 @@ from faultsGenerator import generateListOfFaults
 from faultsGenerator import checkFaults
 from faultsGenerator import updateFault
 from random import randint
+from time import time
+
 
 def createTables():
     circuitName = "circuito1Defeito"
@@ -24,7 +26,7 @@ def createTables():
 #createTables()
 
 def diagnostic():
-    circuitName = "circuito1"
+    circuitName = "circuito2"
     dfOk, dfDefeito = readTables(circuitName)
     circuit = readJson(circuitName)
     faults1, faults2, faults3 = generateListOfFaults(circuit)
@@ -38,7 +40,7 @@ def diagnostic():
 
 def main():
     #circuitList = ["circuito2", "circuito3", "circuito4"]
-    circuitList = ["circuito5"]
+    circuitList = ["circuito4"]
     for circuitName in circuitList:
         print(circuitName)
         circuit = getEditableJson(circuitName)
@@ -50,7 +52,7 @@ def main():
         faultsList = [faults1, faults2, faults3]
         for faults in faultsList:
             for i in range(10):
-                print(i)
+                eTime = 0
                 errorNumber = randint(0, len(faults)-1)
                 faultTuple = faults[errorNumber]
                 circuit = getEditableJson(circuitName)
@@ -59,9 +61,15 @@ def main():
                     circuit = updateFault(circuit,f)
                 dfDefeito = generateTable(circuit)
                 writeFault(circuitName, i, faultTuple, dfDefeito)
+
+                startTime = time()
+
                 diagList1 = checkFaults(circuitName, faults1, dfDefeito)
                 diagList2 = checkFaults(circuitName, faults2, dfDefeito)
                 diagList3 = checkFaults(circuitName, faults3, dfDefeito)
-                writeDiag(circuitName, len(diagList1), len(diagList2), len(diagList3))
 
+                eTime += time() - startTime
+
+                writeDiag(circuitName, len(diagList1), len(diagList2), len(diagList3))
+                print(i+1, len(diagList1), len(diagList2), len(diagList3), eTime)
 main()

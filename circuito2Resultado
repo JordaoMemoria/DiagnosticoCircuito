@@ -73,46 +73,7 @@ Número de dupla de defeitos: 0
 Número de trio de defeitos: 0
 Diagnóstico encontrado
 Iteração 2 
-p5e1 preso em 1
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    0    1
- 0   0   0   0   1    0    1
- 0   0   0   1   0    0    1
- 0   0   0   1   1    0    1
- 0   0   1   0   0    0    1
- 0   0   1   0   1    0    1
- 0   0   1   1   0    0    0
- 0   0   1   1   1    0    1
- 0   1   0   0   0    1    1
- 0   1   0   0   1    1    1
- 0   1   0   1   0    1    1
- 0   1   0   1   1    1    1
- 0   1   1   0   0    1    1
- 0   1   1   0   1    1    1
- 0   1   1   1   0    0    0
- 0   1   1   1   1    0    1
- 1   0   0   0   0    1    1
- 1   0   0   0   1    1    1
- 1   0   0   1   0    1    1
- 1   0   0   1   1    1    1
- 1   0   1   0   0    1    1
- 1   0   1   0   1    1    1
- 1   0   1   1   0    0    0
- 1   0   1   1   1    0    1
- 1   1   0   0   0    1    1
- 1   1   0   0   1    1    1
- 1   1   0   1   0    1    1
- 1   1   0   1   1    1    1
- 1   1   1   0   0    1    1
- 1   1   1   0   1    1    1
- 1   1   1   1   0    0    0
- 1   1   1   1   1    0    1
-Número de defeitos únicos: 3
-Número de dupla de defeitos: 0
-Número de trio de defeitos: 0
-Diagnóstico encontrado
-Iteração 3 
-p3e1 preso em 0
+p5e2 preso em 1
 G5  G2  G4  G3  G1  G17  G16
  0   0   0   0   0    0    0
  0   0   0   0   1    0    0
@@ -128,7 +89,46 @@ G5  G2  G4  G3  G1  G17  G16
  0   1   0   1   1    1    1
  0   1   1   0   0    1    1
  0   1   1   0   1    1    1
- 0   1   1   1   0    1    1
+ 0   1   1   1   0    0    1
+ 0   1   1   1   1    0    1
+ 1   0   0   0   0    1    0
+ 1   0   0   0   1    1    0
+ 1   0   0   1   0    1    0
+ 1   0   0   1   1    1    1
+ 1   0   1   0   0    1    0
+ 1   0   1   0   1    1    0
+ 1   0   1   1   0    0    0
+ 1   0   1   1   1    0    1
+ 1   1   0   0   0    1    1
+ 1   1   0   0   1    1    1
+ 1   1   0   1   0    1    1
+ 1   1   0   1   1    1    1
+ 1   1   1   0   0    1    1
+ 1   1   1   0   1    1    1
+ 1   1   1   1   0    0    1
+ 1   1   1   1   1    0    1
+Número de defeitos únicos: 3
+Número de dupla de defeitos: 0
+Número de trio de defeitos: 0
+Diagnóstico encontrado
+Iteração 3 
+p2e2 preso em 0
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    0    0
+ 0   0   0   0   1    0    0
+ 0   0   0   1   0    0    0
+ 0   0   0   1   1    0    1
+ 0   0   1   0   0    0    0
+ 0   0   1   0   1    0    0
+ 0   0   1   1   0    0    0
+ 0   0   1   1   1    0    1
+ 0   1   0   0   0    1    1
+ 0   1   0   0   1    1    1
+ 0   1   0   1   0    1    1
+ 0   1   0   1   1    1    1
+ 0   1   1   0   0    1    1
+ 0   1   1   0   1    1    1
+ 0   1   1   1   0    1    0
  0   1   1   1   1    1    1
  1   0   0   0   0    1    0
  1   0   0   0   1    1    0
@@ -144,53 +144,53 @@ G5  G2  G4  G3  G1  G17  G16
  1   1   0   1   1    1    1
  1   1   1   0   0    1    1
  1   1   1   0   1    1    1
- 1   1   1   1   0    1    1
+ 1   1   1   1   0    1    0
  1   1   1   1   1    1    1
-Número de defeitos únicos: 4
-Número de dupla de defeitos: 47
-Número de trio de defeitos: 216
+Número de defeitos únicos: 3
+Número de dupla de defeitos: 6
+Número de trio de defeitos: 4
 Diagnóstico encontrado
 Iteração 4 
-p2s preso em 0
+p7s preso em 0
 G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    0    0
- 0   0   0   0   1    0    0
- 0   0   0   1   0    0    0
+ 0   0   0   0   0    0    1
+ 0   0   0   0   1    0    1
+ 0   0   0   1   0    0    1
  0   0   0   1   1    0    1
- 0   0   1   0   0    0    0
- 0   0   1   0   1    0    0
- 0   0   1   1   0    0    0
+ 0   0   1   0   0    0    1
+ 0   0   1   0   1    0    1
+ 0   0   1   1   0    0    1
  0   0   1   1   1    0    1
- 0   1   0   0   0    0    1
- 0   1   0   0   1    0    1
- 0   1   0   1   0    0    1
- 0   1   0   1   1    0    1
- 0   1   1   0   0    0    1
- 0   1   1   0   1    0    1
- 0   1   1   1   0    0    0
+ 0   1   0   0   0    1    1
+ 0   1   0   0   1    1    1
+ 0   1   0   1   0    1    1
+ 0   1   0   1   1    1    1
+ 0   1   1   0   0    1    1
+ 0   1   1   0   1    1    1
+ 0   1   1   1   0    0    1
  0   1   1   1   1    0    1
- 1   0   0   0   0    0    0
- 1   0   0   0   1    0    0
- 1   0   0   1   0    0    0
- 1   0   0   1   1    0    1
- 1   0   1   0   0    0    0
- 1   0   1   0   1    0    0
- 1   0   1   1   0    0    0
+ 1   0   0   0   0    1    1
+ 1   0   0   0   1    1    1
+ 1   0   0   1   0    1    1
+ 1   0   0   1   1    1    1
+ 1   0   1   0   0    1    1
+ 1   0   1   0   1    1    1
+ 1   0   1   1   0    0    1
  1   0   1   1   1    0    1
- 1   1   0   0   0    0    1
- 1   1   0   0   1    0    1
- 1   1   0   1   0    0    1
- 1   1   0   1   1    0    1
- 1   1   1   0   0    0    1
- 1   1   1   0   1    0    1
- 1   1   1   1   0    0    0
+ 1   1   0   0   0    1    1
+ 1   1   0   0   1    1    1
+ 1   1   0   1   0    1    1
+ 1   1   0   1   1    1    1
+ 1   1   1   0   0    1    1
+ 1   1   1   0   1    1    1
+ 1   1   1   1   0    0    1
  1   1   1   1   1    0    1
-Número de defeitos únicos: 7
-Número de dupla de defeitos: 92
-Número de trio de defeitos: 538
+Número de defeitos únicos: 4
+Número de dupla de defeitos: 81
+Número de trio de defeitos: 465
 Diagnóstico encontrado
 Iteração 5 
-G5 preso em 0
+p4e1 preso em 1
 G5  G2  G4  G3  G1  G17  G16
  0   0   0   0   0    0    0
  0   0   0   0   1    0    0
@@ -206,27 +206,27 @@ G5  G2  G4  G3  G1  G17  G16
  0   1   0   1   1    1    1
  0   1   1   0   0    1    1
  0   1   1   0   1    1    1
- 0   1   1   1   0    0    0
- 0   1   1   1   1    0    1
- 1   0   0   0   0    0    0
- 1   0   0   0   1    0    0
- 1   0   0   1   0    0    0
- 1   0   0   1   1    0    1
- 1   0   1   0   0    0    0
- 1   0   1   0   1    0    0
- 1   0   1   1   0    0    0
- 1   0   1   1   1    0    1
+ 0   1   1   1   0    1    0
+ 0   1   1   1   1    1    1
+ 1   0   0   0   0    1    0
+ 1   0   0   0   1    1    0
+ 1   0   0   1   0    1    0
+ 1   0   0   1   1    1    1
+ 1   0   1   0   0    1    0
+ 1   0   1   0   1    1    0
+ 1   0   1   1   0    1    0
+ 1   0   1   1   1    1    1
  1   1   0   0   0    1    1
  1   1   0   0   1    1    1
  1   1   0   1   0    1    1
  1   1   0   1   1    1    1
  1   1   1   0   0    1    1
  1   1   1   0   1    1    1
- 1   1   1   1   0    0    0
- 1   1   1   1   1    0    1
-Número de defeitos únicos: 2
-Número de dupla de defeitos: 2
-Número de trio de defeitos: 0
+ 1   1   1   1   0    1    0
+ 1   1   1   1   1    1    1
+Número de defeitos únicos: 3
+Número de dupla de defeitos: 6
+Número de trio de defeitos: 4
 Diagnóstico encontrado
 Iteração 6 
 G2 preso em 0
@@ -268,31 +268,31 @@ Número de dupla de defeitos: 18
 Número de trio de defeitos: 95
 Diagnóstico encontrado
 Iteração 7 
-p1e2 preso em 0
+G1 preso em 1
 G5  G2  G4  G3  G1  G17  G16
  0   0   0   0   0    0    0
  0   0   0   0   1    0    0
- 0   0   0   1   0    0    0
+ 0   0   0   1   0    0    1
  0   0   0   1   1    0    1
  0   0   1   0   0    0    0
  0   0   1   0   1    0    0
- 0   0   1   1   0    0    0
+ 0   0   1   1   0    0    1
  0   0   1   1   1    0    1
- 0   1   0   0   0    0    1
- 0   1   0   0   1    0    1
- 0   1   0   1   0    0    1
- 0   1   0   1   1    0    1
- 0   1   1   0   0    0    1
- 0   1   1   0   1    0    1
- 0   1   1   1   0    0    0
+ 0   1   0   0   0    1    1
+ 0   1   0   0   1    1    1
+ 0   1   0   1   0    1    1
+ 0   1   0   1   1    1    1
+ 0   1   1   0   0    1    1
+ 0   1   1   0   1    1    1
+ 0   1   1   1   0    0    1
  0   1   1   1   1    0    1
  1   0   0   0   0    1    0
  1   0   0   0   1    1    0
- 1   0   0   1   0    1    0
+ 1   0   0   1   0    1    1
  1   0   0   1   1    1    1
  1   0   1   0   0    1    0
  1   0   1   0   1    1    0
- 1   0   1   1   0    0    0
+ 1   0   1   1   0    0    1
  1   0   1   1   1    0    1
  1   1   0   0   0    1    1
  1   1   0   0   1    1    1
@@ -300,14 +300,14 @@ G5  G2  G4  G3  G1  G17  G16
  1   1   0   1   1    1    1
  1   1   1   0   0    1    1
  1   1   1   0   1    1    1
- 1   1   1   1   0    0    0
+ 1   1   1   1   0    0    1
  1   1   1   1   1    0    1
 Número de defeitos únicos: 1
-Número de dupla de defeitos: 0
+Número de dupla de defeitos: 3
 Número de trio de defeitos: 0
 Diagnóstico encontrado
 Iteração 8 
-G5 preso em 0
+p5e1 preso em 0
 G5  G2  G4  G3  G1  G17  G16
  0   0   0   0   0    0    0
  0   0   0   0   1    0    0
@@ -315,6 +315,45 @@ G5  G2  G4  G3  G1  G17  G16
  0   0   0   1   1    0    1
  0   0   1   0   0    0    0
  0   0   1   0   1    0    0
+ 0   0   1   1   0    0    0
+ 0   0   1   1   1    0    1
+ 0   1   0   0   0    1    0
+ 0   1   0   0   1    1    0
+ 0   1   0   1   0    1    0
+ 0   1   0   1   1    1    1
+ 0   1   1   0   0    1    0
+ 0   1   1   0   1    1    0
+ 0   1   1   1   0    0    0
+ 0   1   1   1   1    0    1
+ 1   0   0   0   0    1    0
+ 1   0   0   0   1    1    0
+ 1   0   0   1   0    1    0
+ 1   0   0   1   1    1    1
+ 1   0   1   0   0    1    0
+ 1   0   1   0   1    1    0
+ 1   0   1   1   0    0    0
+ 1   0   1   1   1    0    1
+ 1   1   0   0   0    1    0
+ 1   1   0   0   1    1    0
+ 1   1   0   1   0    1    0
+ 1   1   0   1   1    1    1
+ 1   1   1   0   0    1    0
+ 1   1   1   0   1    1    0
+ 1   1   1   1   0    0    0
+ 1   1   1   1   1    0    1
+Número de defeitos únicos: 7
+Número de dupla de defeitos: 39
+Número de trio de defeitos: 36
+Diagnóstico encontrado
+Iteração 9 
+p1e1 preso em 1
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    1    0
+ 0   0   0   0   1    1    0
+ 0   0   0   1   0    1    0
+ 0   0   0   1   1    1    1
+ 0   0   1   0   0    1    0
+ 0   0   1   0   1    1    0
  0   0   1   1   0    0    0
  0   0   1   1   1    0    1
  0   1   0   0   0    1    1
@@ -325,12 +364,12 @@ G5  G2  G4  G3  G1  G17  G16
  0   1   1   0   1    1    1
  0   1   1   1   0    0    0
  0   1   1   1   1    0    1
- 1   0   0   0   0    0    0
- 1   0   0   0   1    0    0
- 1   0   0   1   0    0    0
- 1   0   0   1   1    0    1
- 1   0   1   0   0    0    0
- 1   0   1   0   1    0    0
+ 1   0   0   0   0    1    0
+ 1   0   0   0   1    1    0
+ 1   0   0   1   0    1    0
+ 1   0   0   1   1    1    1
+ 1   0   1   0   0    1    0
+ 1   0   1   0   1    1    0
  1   0   1   1   0    0    0
  1   0   1   1   1    0    1
  1   1   0   0   0    1    1
@@ -341,20 +380,20 @@ G5  G2  G4  G3  G1  G17  G16
  1   1   1   0   1    1    1
  1   1   1   1   0    0    0
  1   1   1   1   1    0    1
-Número de defeitos únicos: 2
-Número de dupla de defeitos: 2
-Número de trio de defeitos: 0
+Número de defeitos únicos: 5
+Número de dupla de defeitos: 22
+Número de trio de defeitos: 42
 Diagnóstico encontrado
-Iteração 9 
-p4s preso em 0
+Iteração 10 
+p5s preso em 0
 G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    0    0
- 0   0   0   0   1    0    0
- 0   0   0   1   0    0    0
+ 0   0   0   0   0    0    1
+ 0   0   0   0   1    0    1
+ 0   0   0   1   0    0    1
  0   0   0   1   1    0    1
- 0   0   1   0   0    0    0
- 0   0   1   0   1    0    0
- 0   0   1   1   0    0    0
+ 0   0   1   0   0    0    1
+ 0   0   1   0   1    0    1
+ 0   0   1   1   0    0    1
  0   0   1   1   1    0    1
  0   1   0   0   0    1    1
  0   1   0   0   1    1    1
@@ -362,15 +401,95 @@ G5  G2  G4  G3  G1  G17  G16
  0   1   0   1   1    1    1
  0   1   1   0   0    1    1
  0   1   1   0   1    1    1
- 0   1   1   1   0    1    0
+ 0   1   1   1   0    0    1
+ 0   1   1   1   1    0    1
+ 1   0   0   0   0    1    1
+ 1   0   0   0   1    1    1
+ 1   0   0   1   0    1    1
+ 1   0   0   1   1    1    1
+ 1   0   1   0   0    1    1
+ 1   0   1   0   1    1    1
+ 1   0   1   1   0    0    1
+ 1   0   1   1   1    0    1
+ 1   1   0   0   0    1    1
+ 1   1   0   0   1    1    1
+ 1   1   0   1   0    1    1
+ 1   1   0   1   1    1    1
+ 1   1   1   0   0    1    1
+ 1   1   1   0   1    1    1
+ 1   1   1   1   0    0    1
+ 1   1   1   1   1    0    1
+Número de defeitos únicos: 4
+Número de dupla de defeitos: 81
+Número de trio de defeitos: 465
+Diagnóstico encontrado
+Iteração 1 
+p3e1 preso em 1
+p5s preso em 0
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    0    1
+ 0   0   0   0   1    0    1
+ 0   0   0   1   0    0    1
+ 0   0   0   1   1    0    1
+ 0   0   1   0   0    0    1
+ 0   0   1   0   1    0    1
+ 0   0   1   1   0    0    1
+ 0   0   1   1   1    0    1
+ 0   1   0   0   0    1    1
+ 0   1   0   0   1    1    1
+ 0   1   0   1   0    0    1
+ 0   1   0   1   1    0    1
+ 0   1   1   0   0    1    1
+ 0   1   1   0   1    1    1
+ 0   1   1   1   0    0    1
+ 0   1   1   1   1    0    1
+ 1   0   0   0   0    1    1
+ 1   0   0   0   1    1    1
+ 1   0   0   1   0    0    1
+ 1   0   0   1   1    0    1
+ 1   0   1   0   0    1    1
+ 1   0   1   0   1    1    1
+ 1   0   1   1   0    0    1
+ 1   0   1   1   1    0    1
+ 1   1   0   0   0    1    1
+ 1   1   0   0   1    1    1
+ 1   1   0   1   0    0    1
+ 1   1   0   1   1    0    1
+ 1   1   1   0   0    1    1
+ 1   1   1   0   1    1    1
+ 1   1   1   1   0    0    1
+ 1   1   1   1   1    0    1
+Número de defeitos únicos: 0
+Número de dupla de defeitos: 8
+Número de trio de defeitos: 170
+Diagnóstico encontrado
+Iteração 2 
+G1 preso em 1
+p4e1 preso em 1
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    0    0
+ 0   0   0   0   1    0    0
+ 0   0   0   1   0    0    1
+ 0   0   0   1   1    0    1
+ 0   0   1   0   0    0    0
+ 0   0   1   0   1    0    0
+ 0   0   1   1   0    0    1
+ 0   0   1   1   1    0    1
+ 0   1   0   0   0    1    1
+ 0   1   0   0   1    1    1
+ 0   1   0   1   0    1    1
+ 0   1   0   1   1    1    1
+ 0   1   1   0   0    1    1
+ 0   1   1   0   1    1    1
+ 0   1   1   1   0    1    1
  0   1   1   1   1    1    1
  1   0   0   0   0    1    0
  1   0   0   0   1    1    0
- 1   0   0   1   0    1    0
+ 1   0   0   1   0    1    1
  1   0   0   1   1    1    1
  1   0   1   0   0    1    0
  1   0   1   0   1    1    0
- 1   0   1   1   0    1    0
+ 1   0   1   1   0    1    1
  1   0   1   1   1    1    1
  1   1   0   0   0    1    1
  1   1   0   0   1    1    1
@@ -378,54 +497,15 @@ G5  G2  G4  G3  G1  G17  G16
  1   1   0   1   1    1    1
  1   1   1   0   0    1    1
  1   1   1   0   1    1    1
- 1   1   1   1   0    1    0
+ 1   1   1   1   0    1    1
  1   1   1   1   1    1    1
-Número de defeitos únicos: 3
-Número de dupla de defeitos: 6
-Número de trio de defeitos: 4
+Número de defeitos únicos: 0
+Número de dupla de defeitos: 7
+Número de trio de defeitos: 59
 Diagnóstico encontrado
-Iteração 10 
-p6s preso em 0
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    0    0
- 0   0   0   0   1    0    0
- 0   0   0   1   0    0    0
- 0   0   0   1   1    0    0
- 0   0   1   0   0    0    0
- 0   0   1   0   1    0    0
- 0   0   1   1   0    0    0
- 0   0   1   1   1    0    0
- 0   1   0   0   0    1    0
- 0   1   0   0   1    1    0
- 0   1   0   1   0    1    0
- 0   1   0   1   1    1    0
- 0   1   1   0   0    1    0
- 0   1   1   0   1    1    0
- 0   1   1   1   0    0    0
- 0   1   1   1   1    0    0
- 1   0   0   0   0    1    0
- 1   0   0   0   1    1    0
- 1   0   0   1   0    1    0
- 1   0   0   1   1    1    0
- 1   0   1   0   0    1    0
- 1   0   1   0   1    1    0
- 1   0   1   1   0    0    0
- 1   0   1   1   1    0    0
- 1   1   0   0   0    1    0
- 1   1   0   0   1    1    0
- 1   1   0   1   0    1    0
- 1   1   0   1   1    1    0
- 1   1   1   0   0    1    0
- 1   1   1   0   1    1    0
- 1   1   1   1   0    0    0
- 1   1   1   1   1    0    0
-Número de defeitos únicos: 2
-Número de dupla de defeitos: 52
-Número de trio de defeitos: 368
-Diagnóstico encontrado
-Iteração 1 
-p3s preso em 1
-p5e1 preso em 1
+Iteração 3 
+p2e2 preso em 0
+p7s preso em 0
 G5  G2  G4  G3  G1  G17  G16
  0   0   0   0   0    0    1
  0   0   0   0   1    0    1
@@ -463,58 +543,58 @@ Número de defeitos únicos: 0
 Número de dupla de defeitos: 47
 Número de trio de defeitos: 1042
 Diagnóstico encontrado
-Iteração 2 
-G2 preso em 1
-p4s preso em 0
+Iteração 4 
+G16 preso em 0
+p1s preso em 1
 G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    1    1
- 0   0   0   0   1    1    1
- 0   0   0   1   0    1    1
- 0   0   0   1   1    1    1
- 0   0   1   0   0    1    1
- 0   0   1   0   1    1    1
- 0   0   1   1   0    1    0
- 0   0   1   1   1    1    1
- 0   1   0   0   0    1    1
- 0   1   0   0   1    1    1
- 0   1   0   1   0    1    1
- 0   1   0   1   1    1    1
- 0   1   1   0   0    1    1
- 0   1   1   0   1    1    1
- 0   1   1   1   0    1    0
- 0   1   1   1   1    1    1
- 1   0   0   0   0    1    1
- 1   0   0   0   1    1    1
- 1   0   0   1   0    1    1
- 1   0   0   1   1    1    1
- 1   0   1   0   0    1    1
- 1   0   1   0   1    1    1
- 1   0   1   1   0    1    0
- 1   0   1   1   1    1    1
- 1   1   0   0   0    1    1
- 1   1   0   0   1    1    1
- 1   1   0   1   0    1    1
- 1   1   0   1   1    1    1
- 1   1   1   0   0    1    1
- 1   1   1   0   1    1    1
- 1   1   1   1   0    1    0
- 1   1   1   1   1    1    1
+ 0   0   0   0   0    0    0
+ 0   0   0   0   1    0    0
+ 0   0   0   1   0    0    0
+ 0   0   0   1   1    0    0
+ 0   0   1   0   0    0    0
+ 0   0   1   0   1    0    0
+ 0   0   1   1   0    0    0
+ 0   0   1   1   1    0    0
+ 0   1   0   0   0    0    0
+ 0   1   0   0   1    0    0
+ 0   1   0   1   0    0    0
+ 0   1   0   1   1    0    0
+ 0   1   1   0   0    0    0
+ 0   1   1   0   1    0    0
+ 0   1   1   1   0    0    0
+ 0   1   1   1   1    0    0
+ 1   0   0   0   0    0    0
+ 1   0   0   0   1    0    0
+ 1   0   0   1   0    0    0
+ 1   0   0   1   1    0    0
+ 1   0   1   0   0    0    0
+ 1   0   1   0   1    0    0
+ 1   0   1   1   0    0    0
+ 1   0   1   1   1    0    0
+ 1   1   0   0   0    0    0
+ 1   1   0   0   1    0    0
+ 1   1   0   1   0    0    0
+ 1   1   0   1   1    0    0
+ 1   1   1   0   0    0    0
+ 1   1   1   0   1    0    0
+ 1   1   1   1   0    0    0
+ 1   1   1   1   1    0    0
 Número de defeitos únicos: 0
-Número de dupla de defeitos: 11
-Número de trio de defeitos: 229
+Número de dupla de defeitos: 19
+Número de trio de defeitos: 994
 Diagnóstico encontrado
-Iteração 3 
-p2s preso em 1
-p3s preso em 1
+Iteração 5 
+G4 preso em 0
+p3e2 preso em 1
 G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    1    0
- 0   0   0   0   1    1    0
- 0   0   0   1   0    1    0
- 0   0   0   1   1    1    1
- 0   0   1   0   0    1    0
- 0   0   1   0   1    1    0
- 0   0   1   1   0    1    0
- 0   0   1   1   1    1    1
+ 0   0   0   0   0    0    0
+ 0   0   0   0   1    0    0
+ 0   0   0   1   0    0    0
+ 0   0   0   1   1    0    1
+ 0   0   1   0   0    0    0
+ 0   0   1   0   1    0    0
+ 0   0   1   1   0    0    0
+ 0   0   1   1   1    0    1
  0   1   0   0   0    1    1
  0   1   0   0   1    1    1
  0   1   0   1   0    1    1
@@ -539,13 +619,53 @@ G5  G2  G4  G3  G1  G17  G16
  1   1   1   0   1    1    1
  1   1   1   1   0    1    1
  1   1   1   1   1    1    1
-Número de defeitos únicos: 0
-Número de dupla de defeitos: 34
-Número de trio de defeitos: 637
+Número de defeitos únicos: 4
+Número de dupla de defeitos: 47
+Número de trio de defeitos: 216
 Diagnóstico encontrado
-Iteração 4 
-p1e1 preso em 1
-p5e1 preso em 1
+Iteração 6 
+G17 preso em 1
+p5e1 preso em 0
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    1    0
+ 0   0   0   0   1    1    0
+ 0   0   0   1   0    1    0
+ 0   0   0   1   1    1    1
+ 0   0   1   0   0    1    0
+ 0   0   1   0   1    1    0
+ 0   0   1   1   0    1    0
+ 0   0   1   1   1    1    1
+ 0   1   0   0   0    1    0
+ 0   1   0   0   1    1    0
+ 0   1   0   1   0    1    0
+ 0   1   0   1   1    1    1
+ 0   1   1   0   0    1    0
+ 0   1   1   0   1    1    0
+ 0   1   1   1   0    1    0
+ 0   1   1   1   1    1    1
+ 1   0   0   0   0    1    0
+ 1   0   0   0   1    1    0
+ 1   0   0   1   0    1    0
+ 1   0   0   1   1    1    1
+ 1   0   1   0   0    1    0
+ 1   0   1   0   1    1    0
+ 1   0   1   1   0    1    0
+ 1   0   1   1   1    1    1
+ 1   1   0   0   0    1    0
+ 1   1   0   0   1    1    0
+ 1   1   0   1   0    1    0
+ 1   1   0   1   1    1    1
+ 1   1   1   0   0    1    0
+ 1   1   1   0   1    1    0
+ 1   1   1   1   0    1    0
+ 1   1   1   1   1    1    1
+Número de defeitos únicos: 0
+Número de dupla de defeitos: 18
+Número de trio de defeitos: 917
+Diagnóstico encontrado
+Iteração 7 
+G2 preso em 1
+p5e2 preso em 1
 G5  G2  G4  G3  G1  G17  G16
  0   0   0   0   0    1    1
  0   0   0   0   1    1    1
@@ -553,7 +673,7 @@ G5  G2  G4  G3  G1  G17  G16
  0   0   0   1   1    1    1
  0   0   1   0   0    1    1
  0   0   1   0   1    1    1
- 0   0   1   1   0    0    0
+ 0   0   1   1   0    0    1
  0   0   1   1   1    0    1
  0   1   0   0   0    1    1
  0   1   0   0   1    1    1
@@ -561,6 +681,86 @@ G5  G2  G4  G3  G1  G17  G16
  0   1   0   1   1    1    1
  0   1   1   0   0    1    1
  0   1   1   0   1    1    1
+ 0   1   1   1   0    0    1
+ 0   1   1   1   1    0    1
+ 1   0   0   0   0    1    1
+ 1   0   0   0   1    1    1
+ 1   0   0   1   0    1    1
+ 1   0   0   1   1    1    1
+ 1   0   1   0   0    1    1
+ 1   0   1   0   1    1    1
+ 1   0   1   1   0    0    1
+ 1   0   1   1   1    0    1
+ 1   1   0   0   0    1    1
+ 1   1   0   0   1    1    1
+ 1   1   0   1   0    1    1
+ 1   1   0   1   1    1    1
+ 1   1   1   0   0    1    1
+ 1   1   1   0   1    1    1
+ 1   1   1   1   0    0    1
+ 1   1   1   1   1    0    1
+Número de defeitos únicos: 0
+Número de dupla de defeitos: 28
+Número de trio de defeitos: 659
+Diagnóstico encontrado
+Iteração 8 
+G4 preso em 1
+p1e2 preso em 0
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    0    0
+ 0   0   0   0   1    0    0
+ 0   0   0   1   0    0    0
+ 0   0   0   1   1    0    1
+ 0   0   1   0   0    0    0
+ 0   0   1   0   1    0    0
+ 0   0   1   1   0    0    0
+ 0   0   1   1   1    0    1
+ 0   1   0   0   0    0    1
+ 0   1   0   0   1    0    1
+ 0   1   0   1   0    0    0
+ 0   1   0   1   1    0    1
+ 0   1   1   0   0    0    1
+ 0   1   1   0   1    0    1
+ 0   1   1   1   0    0    0
+ 0   1   1   1   1    0    1
+ 1   0   0   0   0    1    0
+ 1   0   0   0   1    1    0
+ 1   0   0   1   0    0    0
+ 1   0   0   1   1    0    1
+ 1   0   1   0   0    1    0
+ 1   0   1   0   1    1    0
+ 1   0   1   1   0    0    0
+ 1   0   1   1   1    0    1
+ 1   1   0   0   0    1    1
+ 1   1   0   0   1    1    1
+ 1   1   0   1   0    0    0
+ 1   1   0   1   1    0    1
+ 1   1   1   0   0    1    1
+ 1   1   1   0   1    1    1
+ 1   1   1   1   0    0    0
+ 1   1   1   1   1    0    1
+Número de defeitos únicos: 0
+Número de dupla de defeitos: 2
+Número de trio de defeitos: 2
+Diagnóstico encontrado
+Iteração 9 
+p1e2 preso em 0
+p5e1 preso em 1
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    0    1
+ 0   0   0   0   1    0    1
+ 0   0   0   1   0    0    1
+ 0   0   0   1   1    0    1
+ 0   0   1   0   0    0    1
+ 0   0   1   0   1    0    1
+ 0   0   1   1   0    0    0
+ 0   0   1   1   1    0    1
+ 0   1   0   0   0    0    1
+ 0   1   0   0   1    0    1
+ 0   1   0   1   0    0    1
+ 0   1   0   1   1    0    1
+ 0   1   1   0   0    0    1
+ 0   1   1   0   1    0    1
  0   1   1   1   0    0    0
  0   1   1   1   1    0    1
  1   0   0   0   0    1    1
@@ -579,13 +779,136 @@ G5  G2  G4  G3  G1  G17  G16
  1   1   1   0   1    1    1
  1   1   1   1   0    0    0
  1   1   1   1   1    0    1
-Número de defeitos únicos: 1
-Número de dupla de defeitos: 25
-Número de trio de defeitos: 126
+Número de defeitos únicos: 0
+Número de dupla de defeitos: 7
+Número de trio de defeitos: 6
 Diagnóstico encontrado
-Iteração 5 
+Iteração 10 
+G17 preso em 1
 p3s preso em 0
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    1    0
+ 0   0   0   0   1    1    0
+ 0   0   0   1   0    1    0
+ 0   0   0   1   1    1    1
+ 0   0   1   0   0    1    0
+ 0   0   1   0   1    1    0
+ 0   0   1   1   0    1    0
+ 0   0   1   1   1    1    1
+ 0   1   0   0   0    1    0
+ 0   1   0   0   1    1    0
+ 0   1   0   1   0    1    0
+ 0   1   0   1   1    1    1
+ 0   1   1   0   0    1    0
+ 0   1   1   0   1    1    0
+ 0   1   1   1   0    1    0
+ 0   1   1   1   1    1    1
+ 1   0   0   0   0    1    0
+ 1   0   0   0   1    1    0
+ 1   0   0   1   0    1    0
+ 1   0   0   1   1    1    1
+ 1   0   1   0   0    1    0
+ 1   0   1   0   1    1    0
+ 1   0   1   1   0    1    0
+ 1   0   1   1   1    1    1
+ 1   1   0   0   0    1    0
+ 1   1   0   0   1    1    0
+ 1   1   0   1   0    1    0
+ 1   1   0   1   1    1    1
+ 1   1   1   0   0    1    0
+ 1   1   1   0   1    1    0
+ 1   1   1   1   0    1    0
+ 1   1   1   1   1    1    1
+Número de defeitos únicos: 0
+Número de dupla de defeitos: 18
+Número de trio de defeitos: 917
+Diagnóstico encontrado
+Iteração 1 
+G1 preso em 1
 p5e1 preso em 1
+p5e2 preso em 0
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    0    0
+ 0   0   0   0   1    0    0
+ 0   0   0   1   0    0    1
+ 0   0   0   1   1    0    1
+ 0   0   1   0   0    0    0
+ 0   0   1   0   1    0    0
+ 0   0   1   1   0    0    1
+ 0   0   1   1   1    0    1
+ 0   1   0   0   0    1    0
+ 0   1   0   0   1    1    0
+ 0   1   0   1   0    1    1
+ 0   1   0   1   1    1    1
+ 0   1   1   0   0    1    0
+ 0   1   1   0   1    1    0
+ 0   1   1   1   0    0    1
+ 0   1   1   1   1    0    1
+ 1   0   0   0   0    1    0
+ 1   0   0   0   1    1    0
+ 1   0   0   1   0    1    1
+ 1   0   0   1   1    1    1
+ 1   0   1   0   0    1    0
+ 1   0   1   0   1    1    0
+ 1   0   1   1   0    0    1
+ 1   0   1   1   1    0    1
+ 1   1   0   0   0    1    0
+ 1   1   0   0   1    1    0
+ 1   1   0   1   0    1    1
+ 1   1   0   1   1    1    1
+ 1   1   1   0   0    1    0
+ 1   1   1   0   1    1    0
+ 1   1   1   1   0    0    1
+ 1   1   1   1   1    0    1
+Número de defeitos únicos: 0
+Número de dupla de defeitos: 7
+Número de trio de defeitos: 39
+Diagnóstico encontrado
+Iteração 2 
+G4 preso em 0
+p5e1 preso em 1
+p5e2 preso em 1
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    0    1
+ 0   0   0   0   1    0    1
+ 0   0   0   1   0    0    1
+ 0   0   0   1   1    0    1
+ 0   0   1   0   0    0    1
+ 0   0   1   0   1    0    1
+ 0   0   1   1   0    0    1
+ 0   0   1   1   1    0    1
+ 0   1   0   0   0    1    1
+ 0   1   0   0   1    1    1
+ 0   1   0   1   0    1    1
+ 0   1   0   1   1    1    1
+ 0   1   1   0   0    1    1
+ 0   1   1   0   1    1    1
+ 0   1   1   1   0    1    1
+ 0   1   1   1   1    1    1
+ 1   0   0   0   0    1    1
+ 1   0   0   0   1    1    1
+ 1   0   0   1   0    1    1
+ 1   0   0   1   1    1    1
+ 1   0   1   0   0    1    1
+ 1   0   1   0   1    1    1
+ 1   0   1   1   0    1    1
+ 1   0   1   1   1    1    1
+ 1   1   0   0   0    1    1
+ 1   1   0   0   1    1    1
+ 1   1   0   1   0    1    1
+ 1   1   0   1   1    1    1
+ 1   1   1   0   0    1    1
+ 1   1   1   0   1    1    1
+ 1   1   1   1   0    1    1
+ 1   1   1   1   1    1    1
+Número de defeitos únicos: 0
+Número de dupla de defeitos: 47
+Número de trio de defeitos: 1042
+Diagnóstico encontrado
+Iteração 3 
+G5 preso em 0
+G4 preso em 0
+p5e1 preso em 0
 G5  G2  G4  G3  G1  G17  G16
  0   0   0   0   0    0    0
  0   0   0   0   1    0    0
@@ -595,14 +918,14 @@ G5  G2  G4  G3  G1  G17  G16
  0   0   1   0   1    0    0
  0   0   1   1   0    0    0
  0   0   1   1   1    0    1
- 0   1   0   0   0    0    0
- 0   1   0   0   1    0    0
- 0   1   0   1   0    0    0
- 0   1   0   1   1    0    1
- 0   1   1   0   0    0    0
- 0   1   1   0   1    0    0
- 0   1   1   1   0    0    0
- 0   1   1   1   1    0    1
+ 0   1   0   0   0    1    0
+ 0   1   0   0   1    1    0
+ 0   1   0   1   0    1    0
+ 0   1   0   1   1    1    1
+ 0   1   1   0   0    1    0
+ 0   1   1   0   1    1    0
+ 0   1   1   1   0    1    0
+ 0   1   1   1   1    1    1
  1   0   0   0   0    0    0
  1   0   0   0   1    0    0
  1   0   0   1   0    0    0
@@ -611,60 +934,62 @@ G5  G2  G4  G3  G1  G17  G16
  1   0   1   0   1    0    0
  1   0   1   1   0    0    0
  1   0   1   1   1    0    1
- 1   1   0   0   0    0    0
- 1   1   0   0   1    0    0
- 1   1   0   1   0    0    0
- 1   1   0   1   1    0    1
- 1   1   1   0   0    0    0
- 1   1   1   0   1    0    0
- 1   1   1   1   0    0    0
- 1   1   1   1   1    0    1
-Número de defeitos únicos: 1
-Número de dupla de defeitos: 93
-Número de trio de defeitos: 2150
-Diagnóstico encontrado
-Iteração 6 
-p3e1 preso em 1
-p7s preso em 1
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    0    0
- 0   0   0   0   1    0    0
- 0   0   0   1   0    0    0
- 0   0   0   1   1    0    0
- 0   0   1   0   0    0    0
- 0   0   1   0   1    0    0
- 0   0   1   1   0    0    0
- 0   0   1   1   1    0    0
- 0   1   0   0   0    1    1
- 0   1   0   0   1    1    1
- 0   1   0   1   0    0    0
- 0   1   0   1   1    0    0
- 0   1   1   0   0    1    1
- 0   1   1   0   1    1    1
- 0   1   1   1   0    0    0
- 0   1   1   1   1    0    0
- 1   0   0   0   0    1    0
- 1   0   0   0   1    1    0
- 1   0   0   1   0    0    0
- 1   0   0   1   1    0    0
- 1   0   1   0   0    1    0
- 1   0   1   0   1    1    0
- 1   0   1   1   0    0    0
- 1   0   1   1   1    0    0
- 1   1   0   0   0    1    1
- 1   1   0   0   1    1    1
- 1   1   0   1   0    0    0
- 1   1   0   1   1    0    0
- 1   1   1   0   0    1    1
- 1   1   1   0   1    1    1
- 1   1   1   1   0    0    0
- 1   1   1   1   1    0    0
+ 1   1   0   0   0    1    0
+ 1   1   0   0   1    1    0
+ 1   1   0   1   0    1    0
+ 1   1   0   1   1    1    1
+ 1   1   1   0   0    1    0
+ 1   1   1   0   1    1    0
+ 1   1   1   1   0    1    0
+ 1   1   1   1   1    1    1
 Número de defeitos únicos: 0
-Número de dupla de defeitos: 4
-Número de trio de defeitos: 8
+Número de dupla de defeitos: 0
+Número de trio de defeitos: 104
 Diagnóstico encontrado
-Iteração 7 
-p2e1 preso em 1
+Iteração 4 
+G3 preso em 0
+p4s preso em 1
+p5s preso em 0
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    0    1
+ 0   0   0   0   1    0    1
+ 0   0   0   1   0    0    1
+ 0   0   0   1   1    0    1
+ 0   0   1   0   0    0    1
+ 0   0   1   0   1    0    1
+ 0   0   1   1   0    0    1
+ 0   0   1   1   1    0    1
+ 0   1   0   0   0    0    1
+ 0   1   0   0   1    0    1
+ 0   1   0   1   0    0    1
+ 0   1   0   1   1    0    1
+ 0   1   1   0   0    0    1
+ 0   1   1   0   1    0    1
+ 0   1   1   1   0    0    1
+ 0   1   1   1   1    0    1
+ 1   0   0   0   0    0    1
+ 1   0   0   0   1    0    1
+ 1   0   0   1   0    0    1
+ 1   0   0   1   1    0    1
+ 1   0   1   0   0    0    1
+ 1   0   1   0   1    0    1
+ 1   0   1   1   0    0    1
+ 1   0   1   1   1    0    1
+ 1   1   0   0   0    0    1
+ 1   1   0   0   1    0    1
+ 1   1   0   1   0    0    1
+ 1   1   0   1   1    0    1
+ 1   1   1   0   0    0    1
+ 1   1   1   0   1    0    1
+ 1   1   1   1   0    0    1
+ 1   1   1   1   1    0    1
+Número de defeitos únicos: 0
+Número de dupla de defeitos: 32
+Número de trio de defeitos: 1626
+Diagnóstico encontrado
+Iteração 5 
+G17 preso em 0
+p2s preso em 1
 p5e1 preso em 1
 G5  G2  G4  G3  G1  G17  G16
  0   0   0   0   0    0    1
@@ -703,171 +1028,51 @@ Número de defeitos únicos: 0
 Número de dupla de defeitos: 28
 Número de trio de defeitos: 416
 Diagnóstico encontrado
-Iteração 8 
-p2s preso em 0
-p5e1 preso em 0
+Iteração 6 
+G3 preso em 1
+G1 preso em 0
+p3s preso em 0
 G5  G2  G4  G3  G1  G17  G16
  0   0   0   0   0    0    0
  0   0   0   0   1    0    0
  0   0   0   1   0    0    0
- 0   0   0   1   1    0    1
+ 0   0   0   1   1    0    0
  0   0   1   0   0    0    0
  0   0   1   0   1    0    0
  0   0   1   1   0    0    0
- 0   0   1   1   1    0    1
+ 0   0   1   1   1    0    0
  0   1   0   0   0    0    0
  0   1   0   0   1    0    0
  0   1   0   1   0    0    0
- 0   1   0   1   1    0    1
+ 0   1   0   1   1    0    0
  0   1   1   0   0    0    0
  0   1   1   0   1    0    0
  0   1   1   1   0    0    0
- 0   1   1   1   1    0    1
+ 0   1   1   1   1    0    0
  1   0   0   0   0    0    0
  1   0   0   0   1    0    0
  1   0   0   1   0    0    0
- 1   0   0   1   1    0    1
+ 1   0   0   1   1    0    0
  1   0   1   0   0    0    0
  1   0   1   0   1    0    0
  1   0   1   1   0    0    0
- 1   0   1   1   1    0    1
+ 1   0   1   1   1    0    0
  1   1   0   0   0    0    0
  1   1   0   0   1    0    0
  1   1   0   1   0    0    0
- 1   1   0   1   1    0    1
+ 1   1   0   1   1    0    0
  1   1   1   0   0    0    0
  1   1   1   0   1    0    0
  1   1   1   1   0    0    0
- 1   1   1   1   1    0    1
-Número de defeitos únicos: 1
-Número de dupla de defeitos: 93
-Número de trio de defeitos: 2150
-Diagnóstico encontrado
-Iteração 9 
-p1s preso em 0
-p4s preso em 1
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    0    0
- 0   0   0   0   1    0    0
- 0   0   0   1   0    0    0
- 0   0   0   1   1    0    1
- 0   0   1   0   0    0    0
- 0   0   1   0   1    0    0
- 0   0   1   1   0    0    0
- 0   0   1   1   1    0    1
- 0   1   0   0   0    0    1
- 0   1   0   0   1    0    1
- 0   1   0   1   0    0    1
- 0   1   0   1   1    0    1
- 0   1   1   0   0    0    1
- 0   1   1   0   1    0    1
- 0   1   1   1   0    0    0
- 0   1   1   1   1    0    1
- 1   0   0   0   0    0    0
- 1   0   0   0   1    0    0
- 1   0   0   1   0    0    0
- 1   0   0   1   1    0    1
- 1   0   1   0   0    0    0
- 1   0   1   0   1    0    0
- 1   0   1   1   0    0    0
- 1   0   1   1   1    0    1
- 1   1   0   0   0    0    1
- 1   1   0   0   1    0    1
- 1   1   0   1   0    0    1
- 1   1   0   1   1    0    1
- 1   1   1   0   0    0    1
- 1   1   1   0   1    0    1
- 1   1   1   1   0    0    0
- 1   1   1   1   1    0    1
-Número de defeitos únicos: 7
-Número de dupla de defeitos: 92
-Número de trio de defeitos: 538
-Diagnóstico encontrado
-Iteração 10 
-G1 preso em 1
-p2e1 preso em 1
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    0    0
- 0   0   0   0   1    0    0
- 0   0   0   1   0    0    1
- 0   0   0   1   1    0    1
- 0   0   1   0   0    0    0
- 0   0   1   0   1    0    0
- 0   0   1   1   0    0    1
- 0   0   1   1   1    0    1
- 0   1   0   0   0    0    1
- 0   1   0   0   1    0    1
- 0   1   0   1   0    0    1
- 0   1   0   1   1    0    1
- 0   1   1   0   0    0    1
- 0   1   1   0   1    0    1
- 0   1   1   1   0    0    1
- 0   1   1   1   1    0    1
- 1   0   0   0   0    0    0
- 1   0   0   0   1    0    0
- 1   0   0   1   0    0    1
- 1   0   0   1   1    0    1
- 1   0   1   0   0    0    0
- 1   0   1   0   1    0    0
- 1   0   1   1   0    0    1
- 1   0   1   1   1    0    1
- 1   1   0   0   0    0    1
- 1   1   0   0   1    0    1
- 1   1   0   1   0    0    1
- 1   1   0   1   1    0    1
- 1   1   1   0   0    0    1
- 1   1   1   0   1    0    1
- 1   1   1   1   0    0    1
- 1   1   1   1   1    0    1
+ 1   1   1   1   1    0    0
 Número de defeitos únicos: 0
-Número de dupla de defeitos: 7
-Número de trio de defeitos: 158
+Número de dupla de defeitos: 19
+Número de trio de defeitos: 994
 Diagnóstico encontrado
-Iteração 1 
-G5 preso em 1
-G4 preso em 1
+Iteração 7 
+p3e1 preso em 1
 p3s preso em 1
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    1    0
- 0   0   0   0   1    1    0
- 0   0   0   1   0    1    0
- 0   0   0   1   1    1    1
- 0   0   1   0   0    1    0
- 0   0   1   0   1    1    0
- 0   0   1   1   0    1    0
- 0   0   1   1   1    1    1
- 0   1   0   0   0    1    1
- 0   1   0   0   1    1    1
- 0   1   0   1   0    1    1
- 0   1   0   1   1    1    1
- 0   1   1   0   0    1    1
- 0   1   1   0   1    1    1
- 0   1   1   1   0    1    1
- 0   1   1   1   1    1    1
- 1   0   0   0   0    1    0
- 1   0   0   0   1    1    0
- 1   0   0   1   0    1    0
- 1   0   0   1   1    1    1
- 1   0   1   0   0    1    0
- 1   0   1   0   1    1    0
- 1   0   1   1   0    1    0
- 1   0   1   1   1    1    1
- 1   1   0   0   0    1    1
- 1   1   0   0   1    1    1
- 1   1   0   1   0    1    1
- 1   1   0   1   1    1    1
- 1   1   1   0   0    1    1
- 1   1   1   0   1    1    1
- 1   1   1   1   0    1    1
- 1   1   1   1   1    1    1
-Número de defeitos únicos: 0
-Número de dupla de defeitos: 34
-Número de trio de defeitos: 637
-Diagnóstico encontrado
-Iteração 2 
-p3e2 preso em 1
-p3s preso em 1
-p5e1 preso em 0
+p5e2 preso em 0
 G5  G2  G4  G3  G1  G17  G16
  0   0   0   0   0    0    0
  0   0   0   0   1    0    0
@@ -905,312 +1110,66 @@ Número de defeitos únicos: 0
 Número de dupla de defeitos: 52
 Número de trio de defeitos: 620
 Diagnóstico encontrado
-Iteração 3 
-p2s preso em 1
-p3e2 preso em 0
-p3s preso em 1
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    1    0
- 0   0   0   0   1    1    0
- 0   0   0   1   0    1    0
- 0   0   0   1   1    1    1
- 0   0   1   0   0    1    0
- 0   0   1   0   1    1    0
- 0   0   1   1   0    1    0
- 0   0   1   1   1    1    1
- 0   1   0   0   0    1    1
- 0   1   0   0   1    1    1
- 0   1   0   1   0    1    1
- 0   1   0   1   1    1    1
- 0   1   1   0   0    1    1
- 0   1   1   0   1    1    1
- 0   1   1   1   0    1    1
- 0   1   1   1   1    1    1
- 1   0   0   0   0    1    0
- 1   0   0   0   1    1    0
- 1   0   0   1   0    1    0
- 1   0   0   1   1    1    1
- 1   0   1   0   0    1    0
- 1   0   1   0   1    1    0
- 1   0   1   1   0    1    0
- 1   0   1   1   1    1    1
- 1   1   0   0   0    1    1
- 1   1   0   0   1    1    1
- 1   1   0   1   0    1    1
- 1   1   0   1   1    1    1
- 1   1   1   0   0    1    1
- 1   1   1   0   1    1    1
- 1   1   1   1   0    1    1
- 1   1   1   1   1    1    1
-Número de defeitos únicos: 0
-Número de dupla de defeitos: 34
-Número de trio de defeitos: 637
-Diagnóstico encontrado
-Iteração 4 
-G17 preso em 1
-p1e2 preso em 0
-p1s preso em 0
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    1    0
- 0   0   0   0   1    1    0
- 0   0   0   1   0    1    0
- 0   0   0   1   1    1    1
- 0   0   1   0   0    1    0
- 0   0   1   0   1    1    0
- 0   0   1   1   0    1    0
- 0   0   1   1   1    1    1
- 0   1   0   0   0    1    1
- 0   1   0   0   1    1    1
- 0   1   0   1   0    1    1
- 0   1   0   1   1    1    1
- 0   1   1   0   0    1    1
- 0   1   1   0   1    1    1
- 0   1   1   1   0    1    0
- 0   1   1   1   1    1    1
- 1   0   0   0   0    1    0
- 1   0   0   0   1    1    0
- 1   0   0   1   0    1    0
- 1   0   0   1   1    1    1
- 1   0   1   0   0    1    0
- 1   0   1   0   1    1    0
- 1   0   1   1   0    1    0
- 1   0   1   1   1    1    1
- 1   1   0   0   0    1    1
- 1   1   0   0   1    1    1
- 1   1   0   1   0    1    1
- 1   1   0   1   1    1    1
- 1   1   1   0   0    1    1
- 1   1   1   0   1    1    1
- 1   1   1   1   0    1    0
- 1   1   1   1   1    1    1
-Número de defeitos únicos: 2
-Número de dupla de defeitos: 49
-Número de trio de defeitos: 352
-Diagnóstico encontrado
-Iteração 5 
-p2e2 preso em 1
-p3e1 preso em 1
+Iteração 8 
+G3 preso em 1
+G1 preso em 1
 p5e1 preso em 0
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    0    1
+ 0   0   0   0   1    0    1
+ 0   0   0   1   0    0    1
+ 0   0   0   1   1    0    1
+ 0   0   1   0   0    0    1
+ 0   0   1   0   1    0    1
+ 0   0   1   1   0    0    1
+ 0   0   1   1   1    0    1
+ 0   1   0   0   0    1    1
+ 0   1   0   0   1    1    1
+ 0   1   0   1   0    1    1
+ 0   1   0   1   1    1    1
+ 0   1   1   0   0    0    1
+ 0   1   1   0   1    0    1
+ 0   1   1   1   0    0    1
+ 0   1   1   1   1    0    1
+ 1   0   0   0   0    1    1
+ 1   0   0   0   1    1    1
+ 1   0   0   1   0    1    1
+ 1   0   0   1   1    1    1
+ 1   0   1   0   0    0    1
+ 1   0   1   0   1    0    1
+ 1   0   1   1   0    0    1
+ 1   0   1   1   1    0    1
+ 1   1   0   0   0    1    1
+ 1   1   0   0   1    1    1
+ 1   1   0   1   0    1    1
+ 1   1   0   1   1    1    1
+ 1   1   1   0   0    0    1
+ 1   1   1   0   1    0    1
+ 1   1   1   1   0    0    1
+ 1   1   1   1   1    0    1
+Número de defeitos únicos: 0
+Número de dupla de defeitos: 9
+Número de trio de defeitos: 178
+Diagnóstico encontrado
+Iteração 9 
+G4 preso em 1
+G16 preso em 0
+p4e1 preso em 0
 G5  G2  G4  G3  G1  G17  G16
  0   0   0   0   0    0    0
  0   0   0   0   1    0    0
  0   0   0   1   0    0    0
- 0   0   0   1   1    0    1
+ 0   0   0   1   1    0    0
  0   0   1   0   0    0    0
  0   0   1   0   1    0    0
  0   0   1   1   0    0    0
- 0   0   1   1   1    0    1
+ 0   0   1   1   1    0    0
  0   1   0   0   0    0    0
  0   1   0   0   1    0    0
  0   1   0   1   0    0    0
- 0   1   0   1   1    0    1
+ 0   1   0   1   1    0    0
  0   1   1   0   0    0    0
  0   1   1   0   1    0    0
- 0   1   1   1   0    0    0
- 0   1   1   1   1    0    1
- 1   0   0   0   0    0    0
- 1   0   0   0   1    0    0
- 1   0   0   1   0    0    0
- 1   0   0   1   1    0    1
- 1   0   1   0   0    0    0
- 1   0   1   0   1    0    0
- 1   0   1   1   0    0    0
- 1   0   1   1   1    0    1
- 1   1   0   0   0    0    0
- 1   1   0   0   1    0    0
- 1   1   0   1   0    0    0
- 1   1   0   1   1    0    1
- 1   1   1   0   0    0    0
- 1   1   1   0   1    0    0
- 1   1   1   1   0    0    0
- 1   1   1   1   1    0    1
-Número de defeitos únicos: 1
-Número de dupla de defeitos: 93
-Número de trio de defeitos: 2150
-Diagnóstico encontrado
-Iteração 6 
-G16 preso em 0
-p3e2 preso em 0
-p5e1 preso em 1
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    0    0
- 0   0   0   0   1    0    0
- 0   0   0   1   0    0    0
- 0   0   0   1   1    0    0
- 0   0   1   0   0    0    0
- 0   0   1   0   1    0    0
- 0   0   1   1   0    0    0
- 0   0   1   1   1    0    0
- 0   1   0   0   0    1    0
- 0   1   0   0   1    1    0
- 0   1   0   1   0    1    0
- 0   1   0   1   1    1    0
- 0   1   1   0   0    1    0
- 0   1   1   0   1    1    0
- 0   1   1   1   0    1    0
- 0   1   1   1   1    1    0
- 1   0   0   0   0    1    0
- 1   0   0   0   1    1    0
- 1   0   0   1   0    1    0
- 1   0   0   1   1    1    0
- 1   0   1   0   0    1    0
- 1   0   1   0   1    1    0
- 1   0   1   1   0    1    0
- 1   0   1   1   1    1    0
- 1   1   0   0   0    1    0
- 1   1   0   0   1    1    0
- 1   1   0   1   0    1    0
- 1   1   0   1   1    1    0
- 1   1   1   0   0    1    0
- 1   1   1   0   1    1    0
- 1   1   1   1   0    1    0
- 1   1   1   1   1    1    0
-Número de defeitos únicos: 0
-Número de dupla de defeitos: 23
-Número de trio de defeitos: 654
-Diagnóstico encontrado
-Iteração 7 
-p2e1 preso em 1
-p2e2 preso em 0
-p4s preso em 1
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    0    0
- 0   0   0   0   1    0    0
- 0   0   0   1   0    0    0
- 0   0   0   1   1    0    1
- 0   0   1   0   0    0    0
- 0   0   1   0   1    0    0
- 0   0   1   1   0    0    0
- 0   0   1   1   1    0    1
- 0   1   0   0   0    0    1
- 0   1   0   0   1    0    1
- 0   1   0   1   0    0    1
- 0   1   0   1   1    0    1
- 0   1   1   0   0    0    1
- 0   1   1   0   1    0    1
- 0   1   1   1   0    0    0
- 0   1   1   1   1    0    1
- 1   0   0   0   0    0    0
- 1   0   0   0   1    0    0
- 1   0   0   1   0    0    0
- 1   0   0   1   1    0    1
- 1   0   1   0   0    0    0
- 1   0   1   0   1    0    0
- 1   0   1   1   0    0    0
- 1   0   1   1   1    0    1
- 1   1   0   0   0    0    1
- 1   1   0   0   1    0    1
- 1   1   0   1   0    0    1
- 1   1   0   1   1    0    1
- 1   1   1   0   0    0    1
- 1   1   1   0   1    0    1
- 1   1   1   1   0    0    0
- 1   1   1   1   1    0    1
-Número de defeitos únicos: 7
-Número de dupla de defeitos: 92
-Número de trio de defeitos: 538
-Diagnóstico encontrado
-Iteração 8 
-G16 preso em 0
-p3e1 preso em 0
-p5s preso em 0
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    0    0
- 0   0   0   0   1    0    0
- 0   0   0   1   0    0    0
- 0   0   0   1   1    0    0
- 0   0   1   0   0    0    0
- 0   0   1   0   1    0    0
- 0   0   1   1   0    0    0
- 0   0   1   1   1    0    0
- 0   1   0   0   0    1    0
- 0   1   0   0   1    1    0
- 0   1   0   1   0    1    0
- 0   1   0   1   1    1    0
- 0   1   1   0   0    1    0
- 0   1   1   0   1    1    0
- 0   1   1   1   0    1    0
- 0   1   1   1   1    1    0
- 1   0   0   0   0    1    0
- 1   0   0   0   1    1    0
- 1   0   0   1   0    1    0
- 1   0   0   1   1    1    0
- 1   0   1   0   0    1    0
- 1   0   1   0   1    1    0
- 1   0   1   1   0    1    0
- 1   0   1   1   1    1    0
- 1   1   0   0   0    1    0
- 1   1   0   0   1    1    0
- 1   1   0   1   0    1    0
- 1   1   0   1   1    1    0
- 1   1   1   0   0    1    0
- 1   1   1   0   1    1    0
- 1   1   1   1   0    1    0
- 1   1   1   1   1    1    0
-Número de defeitos únicos: 0
-Número de dupla de defeitos: 23
-Número de trio de defeitos: 654
-Diagnóstico encontrado
-Iteração 9 
-G5 preso em 1
-G4 preso em 0
-G3 preso em 0
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    1    0
- 0   0   0   0   1    1    0
- 0   0   0   1   0    1    0
- 0   0   0   1   1    1    0
- 0   0   1   0   0    1    0
- 0   0   1   0   1    1    0
- 0   0   1   1   0    1    0
- 0   0   1   1   1    1    0
- 0   1   0   0   0    1    1
- 0   1   0   0   1    1    1
- 0   1   0   1   0    1    1
- 0   1   0   1   1    1    1
- 0   1   1   0   0    1    1
- 0   1   1   0   1    1    1
- 0   1   1   1   0    1    1
- 0   1   1   1   1    1    1
- 1   0   0   0   0    1    0
- 1   0   0   0   1    1    0
- 1   0   0   1   0    1    0
- 1   0   0   1   1    1    0
- 1   0   1   0   0    1    0
- 1   0   1   0   1    1    0
- 1   0   1   1   0    1    0
- 1   0   1   1   1    1    0
- 1   1   0   0   0    1    1
- 1   1   0   0   1    1    1
- 1   1   0   1   0    1    1
- 1   1   0   1   1    1    1
- 1   1   1   0   0    1    1
- 1   1   1   0   1    1    1
- 1   1   1   1   0    1    1
- 1   1   1   1   1    1    1
-Número de defeitos únicos: 0
-Número de dupla de defeitos: 7
-Número de trio de defeitos: 223
-Diagnóstico encontrado
-Iteração 10 
-G4 preso em 1
-p4s preso em 1
-p7s preso em 1
-G5  G2  G4  G3  G1  G17  G16
- 0   0   0   0   0    0    0
- 0   0   0   0   1    0    0
- 0   0   0   1   0    0    0
- 0   0   0   1   1    0    0
- 0   0   1   0   0    0    0
- 0   0   1   0   1    0    0
- 0   0   1   1   0    0    0
- 0   0   1   1   1    0    0
- 0   1   0   0   0    0    1
- 0   1   0   0   1    0    1
- 0   1   0   1   0    0    0
- 0   1   0   1   1    0    0
- 0   1   1   0   0    0    1
- 0   1   1   0   1    0    1
  0   1   1   1   0    0    0
  0   1   1   1   1    0    0
  1   0   0   0   0    0    0
@@ -1221,15 +1180,56 @@ G5  G2  G4  G3  G1  G17  G16
  1   0   1   0   1    0    0
  1   0   1   1   0    0    0
  1   0   1   1   1    0    0
- 1   1   0   0   0    0    1
- 1   1   0   0   1    0    1
+ 1   1   0   0   0    0    0
+ 1   1   0   0   1    0    0
  1   1   0   1   0    0    0
  1   1   0   1   1    0    0
- 1   1   1   0   0    0    1
- 1   1   1   0   1    0    1
+ 1   1   1   0   0    0    0
+ 1   1   1   0   1    0    0
  1   1   1   1   0    0    0
  1   1   1   1   1    0    0
 Número de defeitos únicos: 0
-Número de dupla de defeitos: 0
-Número de trio de defeitos: 28
+Número de dupla de defeitos: 19
+Número de trio de defeitos: 994
+Diagnóstico encontrado
+Iteração 10 
+p4e1 preso em 0
+p5s preso em 0
+p5e2 preso em 1
+G5  G2  G4  G3  G1  G17  G16
+ 0   0   0   0   0    0    1
+ 0   0   0   0   1    0    1
+ 0   0   0   1   0    0    1
+ 0   0   0   1   1    0    1
+ 0   0   1   0   0    0    1
+ 0   0   1   0   1    0    1
+ 0   0   1   1   0    0    1
+ 0   0   1   1   1    0    1
+ 0   1   0   0   0    0    1
+ 0   1   0   0   1    0    1
+ 0   1   0   1   0    0    1
+ 0   1   0   1   1    0    1
+ 0   1   1   0   0    0    1
+ 0   1   1   0   1    0    1
+ 0   1   1   1   0    0    1
+ 0   1   1   1   1    0    1
+ 1   0   0   0   0    0    1
+ 1   0   0   0   1    0    1
+ 1   0   0   1   0    0    1
+ 1   0   0   1   1    0    1
+ 1   0   1   0   0    0    1
+ 1   0   1   0   1    0    1
+ 1   0   1   1   0    0    1
+ 1   0   1   1   1    0    1
+ 1   1   0   0   0    0    1
+ 1   1   0   0   1    0    1
+ 1   1   0   1   0    0    1
+ 1   1   0   1   1    0    1
+ 1   1   1   0   0    0    1
+ 1   1   1   0   1    0    1
+ 1   1   1   1   0    0    1
+ 1   1   1   1   1    0    1
+Número de defeitos únicos: 0
+Número de dupla de defeitos: 32
+Número de trio de defeitos: 1626
 Diagnóstico encontrado
