@@ -2,6 +2,8 @@ from itertools import combinations
 from reader import getEditableJson
 from tableGenerator import generateTable
 
+
+# This class models a structure that represents a Fault
 class Fault:
     nome = None
     defeito = None
@@ -11,6 +13,8 @@ class Fault:
         self.defeito = defeito
 
 
+# This function generate all possible faults and them remove the faults
+# that does not make sense considering the circuit
 def generateListOfFaults(circuit):
     l = []
     faults = []
@@ -48,6 +52,7 @@ def generateListOfFaults(circuit):
 
     return fault1, fault2, fault3
 
+# This function update de circuit with the fault to start the simulation
 def updateFault(circuit, fault):
     for entrada in circuit["entradas"]:
         if fault.nome == entrada["nome"]:
@@ -70,6 +75,8 @@ def updateFault(circuit, fault):
             porta["saída"]["defeito"] = fault.defeito
             return circuit
 
+
+# This function check if the circuit with fault generate the same outputs of the real defective circuit
 def checkFaults(circuitName, faults, dfDefeito):
     diagList = []
     for faultTuple in faults:

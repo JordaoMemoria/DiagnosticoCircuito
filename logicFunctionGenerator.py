@@ -16,6 +16,7 @@ def findLogicFunction(resp,circuit, porta):
     return list
 
 
+# This function generate the string expression of the circuit
 def generateLogicFunctions(circuit):
     resps = []
     for saída in circuit.saídas:

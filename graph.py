@@ -1,3 +1,5 @@
+# This module create a graph that show statistics comparing the number of faults found in the system.
+
 import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
 ax.plot([5, 6, 7], [0.049, 0.125, 0.127], label="Uma falha")
