@@ -1,4 +1,4 @@
-# Sistema especialista para diagnósticos em circuitos lógicos defeituosos
+# Sistema para Diagnóstico de Falha em Circuitos Lógicos Combinacionais
 
 # Resumo
 
