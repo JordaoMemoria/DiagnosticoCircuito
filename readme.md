@@ -7,4 +7,4 @@ Este trabalho implementa uma série de funcionalidades para realizar diagnóstic
 
 # Referência
 
-To cite: L. Jordão Memória P. R. and José E. B. Maia, Sistema especialista para diagnósticos em circuitos lógicos defeituosos, Relatório Técnico - UECE, 2019 sep 03-18, Fortaleza, Ceará, Brazil, 2019
+To cite: L. Jordão Memória P. R. and José E. B. Maia, Sistema para Diagnóstico de Falha em Circuitos Lógicos Combinacionais, Relatório Técnico - UECE, 2019 sep 03-18, Fortaleza, Ceará, Brazil, 2019
